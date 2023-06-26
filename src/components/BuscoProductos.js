@@ -95,7 +95,7 @@ function SearchProductos(){
 												<div className="text-center">
 													<img 
 														className="img-fluid px-3 px-sm-4 mt-3 mb-4" 
-														src={movie.nombre !== 'N/A' ? movie.nombre : noPoster}
+														src={movie.nombreImagen !== 'N/A' ? "http://localhost:3000/img/" + movie.nombreImagen : noPoster}
 														alt={movie.nombre} 
 														style={{ width: '90%', height: '400px', objectFit: 'cover' }} 
 													/>
