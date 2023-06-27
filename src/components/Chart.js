@@ -3,7 +3,7 @@ import ChartRow from './ChartRow';
 
 let tableRowsData = [
     {
-        Title: 'Billy Elliot ',
+        Title: 'Billy Elliot 2 ',
         Length: '123',
         Rating: '5',
         Categories: ['Drama','Comedia'],
