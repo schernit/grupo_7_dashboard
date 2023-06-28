@@ -6,31 +6,31 @@ import SmallCard from './SmallCard';
 /* <!-- Movies in DB --> */
 
 let moviesInDB = {
-    title: 'Movies in Data Base',
+    title: 'Productos en la base de datos',
     color: 'primary', 
     cuantity: 21,
     icon: 'fa-clipboard-list'
 }
 
-/* <!-- Total awards --> */
-
+ /* <!-- Total awards --> */
+/*
 let totalAwards = {
     title:' Total awards', 
     color:'success', 
     cuantity: '79',
     icon:'fa-award'
-}
+} */
 
 /* <!-- Actors quantity --> */
 
 let actorsQuantity = {
-    title:'Actors quantity' ,
+    title:'Usuarios registrados' ,
     color:'warning',
     cuantity:'49',
     icon:'fa-user-check'
 }
 
-let cartProps = [moviesInDB, totalAwards, actorsQuantity];
+let cartProps = [moviesInDB, actorsQuantity];
 
 function ContentRowMovies(){
     return (

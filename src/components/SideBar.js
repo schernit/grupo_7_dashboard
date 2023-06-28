@@ -4,6 +4,7 @@ import ContentWrapper from './ContentWrapper';
 import GenresInDb from './GenresInDb';
 import LastMovieInDb from './LastMovieInDb';
 import ContentRowMovies from './ContentRowMovies';
+import ContentRowProductos from './ContentRowProductos'
 import SearchMovies from './SearchMovies';
 import BuscoProductos from './BuscoProductos';
 import NotFound from './NotFound';
@@ -54,11 +55,11 @@ function SideBar(){
                 </li>
 
                 {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item nav-link">
+              {  <li className="nav-item nav-link">
                 <Link className="nav-link" to="/ContentRowMovies">
                         <i className="fas fa-fw fa-table"></i>
                         <span>Tables</span></Link>
-                </li>
+                </li>}
                 
                 {/*<!-- Buscador -->*/}
                 <li className="nav-item nav-link">
@@ -109,6 +110,9 @@ function SideBar(){
                 </Route>
                 <Route path="/ContentRowMovies">
                     <ContentRowMovies />
+                </Route>
+                <Route path="/ContentRowProductos">
+                    <ContentRowProductos />
                 </Route>
                 <Route path="/SearchMovies">
                     <SearchMovies />

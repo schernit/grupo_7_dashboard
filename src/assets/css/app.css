@@ -624,6 +624,7 @@ pre code {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-right: -.75rem;
     margin-left: -.75rem
 }
@@ -11568,7 +11569,7 @@ a:focus {
 .sidebar-dark .nav-item .nav-link:active,
 .sidebar-dark .nav-item .nav-link:focus,
 .sidebar-dark .nav-item .nav-link:hover {
-    color: #fff
+    color: green
 }
 
 .sidebar-dark .nav-item .nav-link:active i,
