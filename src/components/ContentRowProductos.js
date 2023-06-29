@@ -4,7 +4,7 @@ import noPoster from '../assets/images/no-poster.jpg';
 import { Script } from 'vm';
 
 function ProductCount(){
-	const [productos, setProductos] = useState([]);
+	const [productosCantidad, setProductos] = useState([]);
 	const [keyword, setKeyword] = useState('comedy');
 
 	const inputTag = useRef();
@@ -55,34 +55,19 @@ function ProductCount(){
 		}
 	}, [keyword])
 
-    /* let moviesInDB = {
-        title: 'Productos en la base de datos',
-        color: 'primary', 
-        cuantity: productos.total,
-        icon: 'fa-clipboard-list'
-    }
-
-    let actorsQuantity = {
-        title:'Usuarios registrados' ,
+    let cartProps = {
+        title:'Productos registrados' ,
         color:'warning',
-        cuantity:'49',
+        cuantity:productosCantidad,
         icon:'fa-user-check'
-    } */
+    }
 
     return (
     
         <div className="total">
             
-			{/*{productos.total=10}*/}
-			<div> HOLA MUNDO</div>
-
-			<div> {productos} </div>
-
-			{/* //ProductCount() }  */}
-            
-            {/*return <SmallCard {...productos}/> */}
-            
-                
+			return <SmallCard {...cartProps}/> 
+                            
         </div>
     )
 }
