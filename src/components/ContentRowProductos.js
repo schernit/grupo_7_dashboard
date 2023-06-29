@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-/* import SmallCard from './SmallCard'; */
+import SmallCard from './SmallCard'; 
 import noPoster from '../assets/images/no-poster.jpg';
+import { Script } from 'vm';
 
 function ProductCount(){
 	const [productos, setProductos] = useState([]);
@@ -70,11 +71,16 @@ function ProductCount(){
 
     return (
     
-        <div className="row">
+        <div className="total">
             
-                ProductCount() 
-                return (<div> {productos.total} </div>)
-              {/*   return <SmallCard {...movie} key={i}/>  */}
+			{/*{productos.total=10}*/}
+			<div> HOLA MUNDO</div>
+
+			<div> {productos} </div>
+
+			{/* //ProductCount() }  */}
+            
+            {/*return <SmallCard {...productos}/> */}
             
                 
         </div>
