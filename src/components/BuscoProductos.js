@@ -63,9 +63,7 @@ function SearchProductos(){
 
 	return(
 		<div className="container-fluid">
-			{
-				apiKey !== '' ?
-				<>
+
 					<div className="row my-4">
 						<div className="col-12 col-md-6">
 							{/* Buscador */}
@@ -109,10 +107,7 @@ function SearchProductos(){
 						}
 					</div>
 					{ productos.length === 0 && <div className="alert alert-warning text-center">No se encontraron productos</div>}
-				</>
-				:
-				<div className="alert alert-danger text-center my-4 fs-2">Eyyyy... ¿PUSISTE TU APIKEY?</div>
-			}
+
 		</div>
 	)
 }

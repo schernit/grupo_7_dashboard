@@ -5,7 +5,6 @@ import GenresInDb from './GenresInDb';
 import LastMovieInDb from './LastMovieInDb';
 import ContentRowMovies from './ContentRowMovies';
 import ContentRowProductos from './ContentRowProductos'
-import SearchMovies from './SearchMovies';
 import BuscoProductos from './BuscoProductos';
 import NotFound from './NotFound';
 import {Link, Route, Switch} from 'react-router-dom';
@@ -62,12 +61,12 @@ function SideBar(){
                 </li>}
                 
                 {/*<!-- Buscador -->*/}
-                <li className="nav-item nav-link">
+               {/*  <li className="nav-item nav-link">
                     <Link className="nav-link" to="/SearchMovies">
                         <i className="fas fa-search"></i>
                         <span>Buscar producto</span>
                     </Link>
-                </li>
+                </li> */}
 
                 {/*<!-- Buscador Productos -->*/}
                 <li className="nav-item nav-link">
@@ -114,9 +113,9 @@ function SideBar(){
                 <Route path="/ContentRowProductos">
                     <ContentRowProductos />
                 </Route>
-                <Route path="/SearchMovies">
+               {/*  <Route path="/SearchMovies">
                     <SearchMovies />
-                </Route>
+                </Route> */}
                 <Route path="/BuscoProductos">
                     <BuscoProductos />
                 </Route>                
