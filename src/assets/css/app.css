@@ -10341,7 +10341,9 @@ button.bg-dark:hover {
 }
 
 .text-center {
-    text-align: center !important
+    text-align: center !important;
+    color: black;
+    font-size: 12px;
 }
 
 @media (min-width:576px) {

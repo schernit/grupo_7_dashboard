@@ -4,8 +4,10 @@ import ContentWrapper from './ContentWrapper';
 import GenresInDb from './GenresInDb';
 import LastMovieInDb from './LastMovieInDb';
 import ContentRowMovies from './ContentRowMovies';
-import ContentRowProductos from './ContentRowProductos'
+import ContentRowProductos from './ContentRowProductos';
 import BuscoProductos from './BuscoProductos';
+import BuscoUsuarios from "./BuscoUsuarios";
+import ContentRowUsuarios from './ContentRowUsuarios';
 import NotFound from './NotFound';
 import {Link, Route, Switch} from 'react-router-dom';
 
@@ -76,6 +78,15 @@ function SideBar(){
                     </Link>
                 </li>
 
+                 {/*<!-- Buscador Usuarios -->*/}
+                 <li className="nav-item nav-link">
+                    <Link className="nav-link" to="/BuscoUsuarios">
+                        <i className="fas fa-search"></i>
+                        <span>Buscar usuario</span>
+                    </Link>
+                </li>
+    
+
                 {/*<!-- Divider -->*/}
                 <hr className="sidebar-divider d-none d-md-block"/>
             </ul>
@@ -116,9 +127,15 @@ function SideBar(){
                {/*  <Route path="/SearchMovies">
                     <SearchMovies />
                 </Route> */}
+                <Route path="/ContentRowUsuarios">
+                    <ContentRowUsuarios />
+                </Route>   
                 <Route path="/BuscoProductos">
                     <BuscoProductos />
-                </Route>                
+                </Route>          
+                <Route path="/BuscoUsuarios">
+                    <BuscoUsuarios />
+                </Route>       
                 <Route component={NotFound} />
             </Switch>
             {/*<!-- End Microdesafio 2 -->*/}
