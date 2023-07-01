@@ -14,12 +14,12 @@ let moviesInDB = {
 
  /* <!-- Total awards --> */
 /*
-let totalAwards = {
+/* let totalAwards = {
     title:' Total awards', 
     color:'success', 
     cuantity: '79',
     icon:'fa-award'
-} */
+}  
 
 /* <!-- Actors quantity --> */
 

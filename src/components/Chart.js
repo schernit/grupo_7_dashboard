@@ -3,18 +3,18 @@ import ChartRow from './ChartRow';
 
 let tableRowsData = [
     {
-        Title: 'Billy Elliot',
-        Length: '123',
-        Rating: '5',
-        Categories: ['Drama','Comedia'],
-        Awards: 2
+        Title: 'Salchicha Paladini',
+        Length: '1',
+        Rating: 'Fiambres y embutidos',
+    /*     Categories: ['Drama','Comedia'],
+        Awards: 2 */
     },
     {
-        Title: 'Alicia en el país de las maravillas',
-        Length: '142',
-        Rating: '4.8',
-        Categories: ['Drama','Acción','Comedia'],
-        Awards: 3
+        Title: 'Queso cremoso',
+        Length: '1',
+        Rating: 'Lacteos y derivados',
+      /*   Categories: ['Drama','Acción','Comedia'],
+        Awards: 3 */
     },
     
 ]
@@ -29,20 +29,20 @@ function Chart (){
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
                             <tr>
-                                <th>Título</th>
-                                <th>Duración</th>
-                                <th>Rating</th>
-                                <th>Género</th>
-                                <th>Premios</th>
+                                <th>Producto</th>
+                                <th>Stock</th>
+                                <th>Categoría</th>
+                                {/* <th>Género</th>
+                                <th>Premios</th> */}
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <th>Título</th>
-                                <th>Duración</th>
-                                <th>Rating</th>
-                                <th>Género</th>
-                                <th>Premios</th>
+                                <th>Producto</th>
+                                <th>Stock</th>
+                                <th>Categoría</th>
+                                {/* <th>Género</th>
+                                <th>Premios</th> */}
                             </tr>
                         </tfoot>
                         <tbody>

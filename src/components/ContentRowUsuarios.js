@@ -57,9 +57,9 @@ function UsuariosCount(){
 
     let cartProps = {
         title:'Usuarios registrados' ,
-        color:'warning',
+        color:'primary',
         cuantity:usuariosCantidad,
-        icon:'fa-user-check'
+        icon:'fa-user-check',
     }
 
     return (

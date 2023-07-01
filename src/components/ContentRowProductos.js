@@ -59,7 +59,7 @@ function ProductCount(){
         title:'Productos registrados' ,
         color:'warning',
         cuantity:productosCantidad,
-        icon:'fa-user-check'
+        icon:'fa-clipboard-list'
     }
 
     return (

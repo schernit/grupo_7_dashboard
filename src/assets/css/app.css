@@ -327,6 +327,7 @@ fieldset {
     border: 0
 }
 
+
 legend {
     display: block;
     width: 100%;
@@ -337,6 +338,10 @@ legend {
     line-height: inherit;
     color: inherit;
     white-space: normal
+}
+
+.lastmovie{
+    color: black;
 }
 
 progress {
@@ -513,8 +518,9 @@ mark {
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto
+    max-width: 90%;
+    height: auto;
+    
 }
 
 .img-thumbnail {
@@ -2679,14 +2685,14 @@ fieldset:disabled a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #36b9cc;
-    border-color: #36b9cc
+    background-color: #008037;
+    border-color: #008037;
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #2c9faf;
-    border-color: #2a96a5
+    background-color: #e4803d;
+    border-color: #e4803d;
 }
 
 .btn-info.focus,
@@ -2755,14 +2761,14 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #e74a3b;
-    border-color: #e74a3b
+    background-color: #008037;
+    border-color: #008037
 }
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #e02d1b;
-    border-color: #d52a1a
+    background-color: #d79129;
+    border-color: #d79129;
 }
 
 .btn-danger.focus,
@@ -6933,7 +6939,8 @@ button.bg-dark:hover {
 }
 
 .rounded-circle {
-    border-radius: 50% !important
+    border-radius: 50% !important;
+    border: solid 2px #ebebeb;
 }
 
 .rounded-pill {
@@ -8079,7 +8086,8 @@ button.bg-dark:hover {
 }
 
 .w-100 {
-    width: 100% !important
+    width: 90% !important;
+    padding: 20px;
 }
 
 .w-auto {
@@ -10445,7 +10453,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #4e73df !important
+    color: #017f36 !important
 }
 
 a.text-primary:focus,
@@ -10899,7 +10907,7 @@ a:focus {
 }
 
 .text-gray-600 {
-    color: #858796 !important
+    color: #008037 !important
 }
 
 .text-gray-700 {
@@ -10924,7 +10932,7 @@ a:focus {
 }
 
 .border-left-primary {
-    border-left: .25rem solid #4e73df !important
+    border-left: .25rem solid #017f36 !important
 }
 
 .border-bottom-primary {
@@ -10956,7 +10964,7 @@ a:focus {
 }
 
 .border-left-warning {
-    border-left: .25rem solid #f6c23e !important
+    border-left: .25rem solid #ffc48e !important
 }
 
 .border-bottom-warning {

@@ -12,7 +12,7 @@ function LastMovieInDb(){
                     <div className="text-center">
                         <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={imagenFondo} alt=" Star Wars - Mandalorian "/>
                     </div>
-                    <p>
+                    <p className='lastmovie'>
                         Yogurt bebible descremado sabor vainilla, marca "Ilolay". Sachet x 1 lt.</p>
                     <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">Ver detalle del producto</a>
                 </div>
