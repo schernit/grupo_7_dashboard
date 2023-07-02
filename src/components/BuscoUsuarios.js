@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import noPoster from '../assets/images/no-poster.jpg';
 
-function searchUsuarios(){
+function SearchUsuarios(){
 	const [usuarios, setUsuarios] = useState([]);
 	const [keyword, setKeyword] = useState('comedy');
 
@@ -113,4 +113,4 @@ function searchUsuarios(){
 	)
 }
 
-export default searchUsuarios;
+export default SearchUsuarios;
