@@ -78,7 +78,7 @@ function SearchUsuarios(){
 					</div>
 					<div className="row">
 						<div className="col-12">
-							<h2>Usuarios: {keyword}</h2>
+							<h2 className='titulobuscador'>Usuarios: </h2>
 						</div>
 						{/* Listado de películas */}
 						{
@@ -91,7 +91,7 @@ function SearchUsuarios(){
 											</div>
 											<div className="card-body">
 												<div className="text-center">
-                                                { <h2> {usuario.nombre} </h2>}
+                                                { <h2> {usuario.nombre + " " + usuario.apellido} </h2>}
 													{/* {<img 
 														className="img-fluid px-3 px-sm-4 mt-3 mb-4" 
 														src={usuario.nombreImagen !== 'N/A' ? "http://localhost:3000/img/" + usuario.nombreImagen : noPoster} 

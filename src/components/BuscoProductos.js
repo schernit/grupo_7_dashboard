@@ -78,7 +78,7 @@ function SearchProductos(){
 					</div>
 					<div className="row">
 						<div className="col-12">
-							<h2>Productos: {keyword}</h2>
+							<h2 className='titulobuscador'>Productos: </h2>
 						</div>
 						{/* Listado de películas */}
 						{
@@ -87,7 +87,7 @@ function SearchProductos(){
 									<div className="col-sm-6 col-md-3 my-4" key={i}>
 										<div className="card shadow mb-4">
 											<div className="card-header py-3">
-												<h5 className="m-0 font-weight-bold text-gray-800">{producto.id}</h5>
+												<h5 className="m-0 font-weight-bold text-gray-800">{producto.id + " " + producto.nombre}</h5>
 											</div>
 											<div className="card-body">
 												<div className="text-center">
@@ -98,7 +98,7 @@ function SearchProductos(){
 														style={{ width: '200%', height: '200px', objectFit: 'cover' }} 
 													/>
 												</div>
-												<p>{producto.precio}</p>
+												<p className='precioproducto'>{"$ " + producto.precio}</p>
 											</div>
 										</div>
 									</div>

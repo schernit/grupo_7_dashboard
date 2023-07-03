@@ -35,7 +35,7 @@ let cartProps = [moviesInDB, actorsQuantity];
 function ContentRowMovies(){
     return (
     
-        <div className="row">
+        <div className="row cardsTable">
             
             {cartProps.map( (movie, i) => {
 

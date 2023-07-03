@@ -66,7 +66,7 @@ function UsuariosCount(){
     
         <div className="total">
             
-			return <SmallCard {...cartProps}/> 
+			<SmallCard {...cartProps}/> 
                             
         </div>
     )

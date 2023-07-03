@@ -66,7 +66,7 @@ function ProductCount(){
     
         <div className="total">
             
-			return <SmallCard {...cartProps}/> 
+			<SmallCard {...cartProps}/> 
                             
         </div>
     )
